@@ -1,0 +1,40 @@
+{% extends "layout_3.html" %}
+
+{% block slider %}
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='container'>
+   <h1>Pumps</h1>
+   {% for pump in pumps %}
+   <h2>{{ pumps[pump]['name'] }}
+   {% if pumps[pump]['al'] == "y" %}
+      is currently <strong style="color:red">{{ pumps[pump]['value'] }}</strong></h2><div class="row"><div class="col-md-2">
+      <a class="btn btn-secondary" href="\pumps\{{pump}}" role="button">Change</a><a class="btn" href="\pour\{{pump}}" role="button" padding="10px">Pour</a></div></div> 
+      <br>
+   {% else %}
+      is currently <strong style="color:blue">{{ pumps[pump]['value'] }}</strong></h2><div class="row"><div class="col-md-2">
+      <a class="btn btn-secondary" href="\pumps\{{pump}}" role="button">Change</a><a class="btn" href="\pour\{{pump}}" role="button" padding="10px">Pour</a></div></div> <br>
+   {% endif %}
+   {% endfor %}
+</div>
+<div>
+<a class="btn btn-primary" href="\clear" role="button">Clean pumps</a></div></div>
+</div>
+{% endblock %}

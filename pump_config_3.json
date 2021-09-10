@@ -1,0 +1,44 @@
+{
+    "pump_1": {
+        "al": "y", 
+        "last_on": 1618750464.0, 
+        "name": "Pump 1", 
+        "pin": 24, 
+        "value": "rum"
+    }, 
+    "pump_2": {
+        "al": "y", 
+        "last_on": 1618750480.0, 
+        "name": "Pump 2", 
+        "pin": 10, 
+        "value": "gin"
+    }, 
+    "pump_3": {
+        "al": "y", 
+        "last_on": 1618750579.0, 
+        "name": "Pump 3", 
+        "pin": 9, 
+        "value": "whiskey"
+    }, 
+    "pump_4": {
+        "al": "n", 
+        "last_on": 1618750603.0, 
+        "name": "Pump 4", 
+        "pin": 11, 
+        "value": "coke"
+    }, 
+    "pump_5": {
+        "al": "y", 
+        "last_on": 1618052978.0, 
+        "name": "Pump 5", 
+        "pin": 25, 
+        "value": "vodka"
+    }, 
+    "pump_6": {
+        "al": "y", 
+        "last_on": 1631281857.0, 
+        "name": "Pump 6", 
+        "pin": 12, 
+        "value": "red_vermouth"
+    }
+}

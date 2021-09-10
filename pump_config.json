@@ -1,0 +1,38 @@
+{
+    "pump_1": {
+        "al": "y", 
+        "name": "Pump 1", 
+        "pin": 24, 
+        "value": "rum"
+    }, 
+    "pump_2": {
+        "al": "y", 
+        "name": "Pump 2", 
+        "pin": 10, 
+        "value": "gin"
+    }, 
+    "pump_3": {
+        "al": "y", 
+        "name": "Pump 3", 
+        "pin": 9, 
+        "value": "whiskey"
+    }, 
+    "pump_4": {
+        "al": "n", 
+        "name": "Pump 4", 
+        "pin": 11, 
+        "value": "tonic"
+    }, 
+    "pump_5": {
+        "al": "y", 
+        "name": "Pump 5", 
+        "pin": 25, 
+        "value": "vodka"
+    }, 
+    "pump_6": {
+        "al": "y", 
+        "name": "Pump 6", 
+        "pin": 12, 
+        "value": "red_vermouth"
+    }
+}

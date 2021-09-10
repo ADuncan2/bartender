@@ -1,0 +1,9 @@
+{% extends "layout_3.html" %}
+
+{% block slider %}
+<div>
+You are about to pour: <h1>{{ing}}</h1><br>
+<strong>Flick switch to stop pour, leave switch off for 5 seconds to finish</strong>
+<a class="btn btn-secondary" href="\pour\{{pump}}\active" role="button">Pour</a>
+</div>
+{% endblock %}

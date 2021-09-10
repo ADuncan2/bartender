@@ -1,0 +1,143 @@
+{
+    "cosmo": {
+        "ing_draw": {
+            "lime": 10,
+            "triple_sec": 15
+        },
+        "ing_pump": {
+            "cranberry": 30,
+            "vodka": 45
+        },
+        "name": "Cosmopolitan"
+    },
+    "espresso_martini": {
+        "ing_draw": {},
+        "ing_pump": {
+            "coffee": 50,
+            "kahlua": 50,
+            "vodka": 100
+        },
+        "name": "Espresso Martini"
+    },
+    "gin_juice": {
+        "ing_draw": {},
+        "ing_pump": {
+            "gin": 30,
+            "oj": 150
+        },
+        "name": "Gin and Juice"
+    },
+    "gin_tonic": {
+        "ing_draw": {},
+        "ing_pump": {
+            "gin": 30,
+            "tonic": 150
+        },
+        "name": "Gin and Tonic"
+    },
+    "long_island": {
+        "ing_draw": {
+            "gin": 15,
+            "rum": 15,
+            "tequilla": 15,
+            "vodka": 15,
+            "whiskey": 15
+        },
+        "ing_pump": {
+            "coke": 150,
+            "oj": 30
+        },
+        "name": "Long Island Ice Tea"
+    },
+    "mai_tai": {
+        "ing_draw": {
+            "dark_rum": 5,
+            "grenadine": 2,
+            "lime": 15,
+            "triple_sec": 5,
+            "white_rum": 5
+        },
+        "ing_pump": {},
+        "name": "Mai Tai"
+    },
+    "martini": {
+        "ing_draw": {
+            "vermouth": 5
+        },
+        "ing_pump": {
+            "vodka": 60
+        },
+        "name": "Martini"
+    },
+    "mojito": {
+        "ing_draw": {
+            "lime": 10
+        },
+        "ing_pump": {
+            "lemonade": 150,
+            "rum": 60
+        },
+        "name": "Mojito"
+    },
+    "ny_sour": {
+        "ing_draw": {
+            "orange_bitters": 2
+        },
+        "ing_pump": {
+            "lemon": 25,
+            "red_wine": 20,
+            "whiskey": 50
+        },
+        "name": "New York Sour"
+    },
+    "pink_negroni": {
+        "ing_draw": {
+            "aperol": 15
+        },
+        "ing_pump": {
+            "gin": 35,
+            "red_vermouth": 25
+        },
+        "name": "Pink Negroni"
+    },
+    "rum_coke": {
+        "ing_draw": {},
+        "ing_pump": {
+            "coke": 150,
+            "rum": 30
+        },
+        "name": "Rum & Coke"
+    },
+    "screwdriver": {
+        "ing_draw": {},
+        "ing_pump": {
+            "oj": 150,
+            "vodka": 30
+        },
+        "name": "Screwdriver"
+    },
+    "vodka_coke": {
+        "ing_draw": {},
+        "ing_pump": {
+            "coke": 150,
+            "vodka": 30
+        },
+        "name": "Vodka Coke"
+    },
+    "vodka_cran": {
+        "ing_draw": {},
+        "ing_pump": {
+            "cranberry": 150,
+            "vodka": 30
+        },
+        "name": "Vodka Cranberry"
+    },
+    "whiskey_coke": {
+        "ing_draw": {},
+        "ing_pump": {
+            "coke": 150,
+            "whiskey": 30
+        },
+        "name": "Whiskey and Coke"
+    }
+}

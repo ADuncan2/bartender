@@ -1,0 +1,122 @@
+{
+    "cosmo": {
+        "ing": {
+            "cranberry": 30,
+            "lime": 10,
+            "triple_sec": 15,
+            "vodka": 45
+        },
+        "name": "Cosmopolitan"
+    },
+    "espresso_martini": {
+        "ing": {
+            "coffee": 50,
+            "kahlua": 50,
+            "vodka": 100
+        },
+        "name": "Espresso Martini"
+    },
+    "gin_juice": {
+        "ing": {
+            "gin": 30,
+            "oj": 150
+        },
+        "name": "Gin and Juice"
+    },
+    "gin_tonic": {
+        "ing": {
+            "gin": 30,
+            "tonic": 150
+        },
+        "name": "Gin and Tonic"
+    },
+    "long_island": {
+        "ing": {
+            "coke": 150,
+            "gin": 15,
+            "oj": 30,
+            "rum": 15,
+            "tequilla": 15,
+            "vodka": 15,
+            "whiskey": 15
+        },
+        "name": "Long Island Ice Tea"
+    },
+    "mai_tai": {
+        "ing": {
+            "dark_rum": 5,
+            "grenadine": 2,
+            "lime": 15,
+            "triple_sec": 5,
+            "white_rum": 5
+        },
+        "name": "Mai Tai"
+    },
+    "martini": {
+        "ing": {
+            "vermouth": 5,
+            "vodka": 60
+        },
+        "name": "Martini"
+    },
+    "mojito": {
+        "ing": {
+            "lemonade": 150,
+            "lime": 10,
+            "rum": 60
+        },
+        "name": "Mojito"
+    },
+    "ny_sour": {
+        "ing": {
+            "lemon": 25,
+            "orange_bitters": 2,
+            "red_wine": 20,
+            "whiskey": 50
+        },
+        "name": "New York Sour"
+    },
+    "pink_negroni": {
+        "ing": {
+            "aperol": 15,
+            "gin": 35,
+            "red_vermouth": 25
+        },
+        "name": "Pink Negroni"
+    },
+    "rum_coke": {
+        "ing": {
+            "coke": 150,
+            "rum": 30
+        },
+        "name": "Rum & Coke"
+    },
+    "screwdriver": {
+        "ing": {
+            "oj": 150,
+            "vodka": 30
+        },
+        "name": "Screwdriver"
+    },
+    "vodka_coke": {
+        "ing": {
+            "coke": 150,
+            "vodka": 30
+        },
+        "name": "Vodka Coke"
+    },
+    "vodka_cran": {
+        "ing": {
+            "cranberry": 300,
+            "vodka": 30
+        },
+        "name": "Vodka Cranberry"
+    },
+    "whiskey_coke": {
+        "ing": {
+            "coke": 150,
+            "whiskey": 30
+        },
+        "name": "Whiskey and Coke"
+    }
+}

@@ -1,0 +1,10 @@
+{% extends "layout_3.html" %}
+
+{% block slider %}
+<div class='container'>
+   <h1>Change {{pumps[pump]["name"]}} to:</h1>
+   {% for ing in all_ing %}
+   <a class="btn btn-secondary" href="\pumps\{{pump}}\{{ing}}" role="button">{{ ing }}</a>
+   {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "layout_3.html" %}
+
+{% block slider %}
+
+{% for pump in pumps %}
+<div class='container'>
+   <h1>Pumps</h1>
+{% for pump in pumps %}
+   <h2>{{ pumps[pump]["name"] }}
+   {% if {{ pumps[pump]["al"] }} = "y" %}
+      is currently <strong style="color:red">{{ pumps[pump]['value'] }}</strong></h2><div class="row"><div class="col-md-2">
+      <a class="btn btn-block btn-lg btn-primary" role="button">Change</a></div></div><br>
+      <div class="row"><div class="col-md-2">
+      <a class="btn btn-block btn-lg btn-primary" role="button">Change</a></div></div>
+   {% else %}
+      is currently <strong style="color:blue">{{ pumps[pump]['value'] }}</strong></h2><div class="row"><div class="col-md-2">
+      <a class="btn btn-block btn-lg btn-primary" role="button">Change</a></div></div>
+   {% endif %}
+{% endfor %}
+</div>
+<a class="btn btn-block btn-lg btn-primary" role="button">Clear pumps</a></div>
+</div>
+{% endblock %}

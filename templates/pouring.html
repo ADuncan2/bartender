@@ -1,0 +1,10 @@
+{% extends "layout_3.html" %}
+
+{% block slider %}
+
+<div class=container> Your {{ drinks_list[drink]['name'] }} is ready, enjoy!  </div>
+{% for pin in pins %}
+<p> Pin {{ pin }} is on</p>
+{% endfor %}
+<a href="/" type="button" class="btn btn-primary" >More drinks!</a>
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends "layout_3.html" %}
+
+{% block slider %}
+<h3> This is what you need from the draw:</h3>
+{% for ing in draw_ing %}
+	{{ ing }}: {{ draw_ing[ing] }} ml
+{% endfor %}
+<br><br><a class="btn btn-secondary" href="\{{chosen_drink}}\{{double}}\draw" role="button">Continue?</a>
+{% endblock %}

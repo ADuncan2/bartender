@@ -1,0 +1,35 @@
+{
+    "martini": {
+        "ing_draw": {
+            "vermouth": 5
+        }, 
+        "ing_pump": {
+            "vodka": 60
+        }, 
+        "name": "Martini"
+    }, 
+    "rum_coke": {
+        "ing_draw": {}, 
+        "ing_pump": {
+            "coke": 150, 
+            "rum": 30
+        }, 
+        "name": "Rum & Coke"
+    }, 
+    "vodka_coke": {
+        "ing_draw": {}, 
+        "ing_pump": {
+            "coke": 150, 
+            "vodka": 30
+        }, 
+        "name": "Vodka Coke"
+    }, 
+    "whiskey_coke": {
+        "ing_draw": {}, 
+        "ing_pump": {
+            "coke": 150, 
+            "whiskey": 30
+        }, 
+        "name": "Whiskey and Coke"
+    }
+}

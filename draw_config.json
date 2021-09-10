@@ -1,0 +1,38 @@
+{
+    "sec_1": {
+        "al": "y",
+        "name": "Pump 1",
+        "pin": 17,
+        "value": "vermouth"
+    },
+    "sec_2": {
+        "al": "n",
+        "name": "Pump 2",
+        "pin": 27,
+        "value": "lime"
+    },
+    "sec_3": {
+        "al": "y",
+        "name": "Pump 3",
+        "pin": 22,
+        "value": "lime"
+    },
+    "sec_4": {
+        "al": "y",
+        "name": "Pump 4",
+        "pin": 23,
+        "value": "lime"
+    },
+    "sec_5": {
+        "al": "y",
+        "name": "Pump 5",
+        "pin": 24,
+        "value": "lime"
+    },
+    "sec_6": {
+        "al": "n",
+        "name": "Pump 6",
+        "pin": 25,
+        "value": "lime"
+    }
+}
